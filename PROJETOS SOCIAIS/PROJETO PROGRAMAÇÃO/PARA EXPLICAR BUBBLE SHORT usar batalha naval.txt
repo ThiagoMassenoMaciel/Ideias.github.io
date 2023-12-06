@@ -1,3 +1,26 @@
 dentro da função trocar posicão dentro do projeto de POO TabelaCampeonatoBrasileiro 
 
 explicar a troca das posições usando batalha naval
+
+
+usando caixinhas
+regra so pode fazer 3 passos e em todos os passos o valor deve estar em uma caixa
+um valor n pode ficar emcima de outro
+
+sugestão 
+
+Passo 1  - guarda o valor do primeiro elemento
+Passo 2  - o primeiro elemento recebe o valor do próximo elemento
+Passo 3  - o proximo elemento recebe o valor guardado
+
+e a pessoa pergunta ao primeiro elemento da fila
+  o primeiro elemento é menor que o próximo ?
+  SIM --troca
+  NÃO --pula próximo elemento e faz a pergunta
+      o segundo elemento é menor que o próximo ?
+      SIM  --troca
+      NÃO  --pula próximo elemento e pergunta
+          o terceiro elemento é menor que o próximo ?
+          SIM  --troca
+          NÃO  --pula próx elemento e pergunta
+      
